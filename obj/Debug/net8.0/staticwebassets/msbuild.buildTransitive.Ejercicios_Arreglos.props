@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Ejercicios_Arreglos.props" />
+</Project>
