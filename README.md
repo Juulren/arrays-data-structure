@@ -25,3 +25,14 @@ El proyecto consta de 9 ejercicios divididos en distintas categorías y niveles 
 - **Backend / Lógica**: C# (Implementando patrones MVC, POO y SOLID).
 - **Frontend / Interfaz**: HTML5, CSS3, JavaScript (Vanilla JS), Bootstrap 5.
 - **Arquitectura**: Separación clara entre Modelos (datos y reglas de negocio), Vistas (interfaz de usuario) y Controladores (orquestación).
+
+## Cómo Ejecutar el Proyecto
+
+Para poder interactuar con los ejercicios y que la interfaz se comunique con la lógica de negocio, es necesario iniciar primero el servidor backend (API):
+
+1. **Inicia la API en C#**: Abre una terminal en la carpeta principal del proyecto (`Ejercicios_Arreglos`) y ejecuta el siguiente comando:
+   ```bash
+   dotnet run
+   ```
+2. **Abre la Interfaz**: Una vez que la API esté corriendo (debería indicar que está escuchando en el puerto 5000 u otro similar), abre el archivo `index.html` en tu navegador web de preferencia.
+   - *Nota: Mantén la terminal abierta mientras pruebas los ejercicios en el navegador para evitar errores de conexión.*
